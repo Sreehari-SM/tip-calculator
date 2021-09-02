@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./js/script.js"></script>
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+    <div class="calculator-body">
+      <div class="calculator-content">
+        <div class="left-content">
+          <h4>Bill</h4>
+          <div class="input-field">
+            <input type="text" placeholder="0" data-bill/>
+          </div>
+          <h4>Select Tip %</h4>
+          <div class="selection-tip">
+            <button value="5">5%</button>
+            <button value="10">10%</button>
+            <button value="15">15%</button>
+            <button value="25">25%</button>
+            <button value="50">50%</button>
+            <input type="number" class="custom" placeholder="Custom" />
+          </div>
+          <h4>Number Of People</h4>
+          <div class="input-field sec">
+            <input type="text" placeholder="0" required data-members/>
+          </div>
+        </div>
+        <div class="right-content">
+          <div class="amount-section">
+            <div class="amount-sec-left">
+              <span>Tip Amount</span>
+              <small>/ person</small>
+            </div>
+            <h3>$</h3>
+          </div>
+          <div class="amount-section">
+            <div class="amount-sec-left">
+              <span> Total</span>
+              <small>/ person</small>
+            </div>
+            <h3 class="total-amount">$</h3>
+          </div>
+          <a href="" class="button">Reset</a>
+        </div>
+      </div>
+    </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sreehari</a>
+  </div>
+</body>
+</html>
